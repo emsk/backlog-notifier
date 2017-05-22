@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+::selection {
+  background-color: #afd7ff;
+}
+
+html {
+  -webkit-app-region: drag;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #4caf93;
+  color: #fff;
+  font-family: 'Montserrat-Regular';
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  width: 220px;
+}
+
+input {
+  -webkit-app-region: no-drag;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  font-size: 0.8em;
+  height: 20px;
+  padding: 0 3px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+button {
+  -webkit-app-region: no-drag;
+  background-color: #4caf93;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.6em;
+  padding: 8px 20px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #2c9a7a;
+}
+
+a {
+  -webkit-app-region: no-drag;
+}
+
+#main {
+  margin: 0 auto;
+  width: 760px;
+}
+
+#setting-option {
+  margin-top: 10px;
+}
+
+.setting-backlog {
+  width: 400px;
+}
+
+.setting-backlog input {
+  width: 390px;
+}
+
+.setting-number input {
+  text-align: right;
+  width: 60px;
+}
+
+.unit {
+  font-size: 0.8em;
+}
+
+#test-connection-button {
+  border: 2px solid #fff;
+  font-size: 0.8em;
+  margin-left: 5px;
+  padding: 6px;
+}
+
+#save-button-area {
+  font-size: 1.5em;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#save-button {
+  margin-right: 30px;
+}
+
+#sub-button-area {
+  bottom: 35px;
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+
+#sub-button-area button {
+  border: 2px solid #fff;
+  font-size: 16px;
+  height: 32px;
+  margin-left: 11px;
+  width: 32px;
+}
+
+#other-settings-button {
+  padding: 0 0 1px;
+}
+
+#new-setting-button {
+  padding: 4px;
+}
+
+#delete-button {
+  padding: 0;
+}
+
+.notie-container {
+  -webkit-app-region: no-drag;
+}
+
+.notie-textbox.notie-background-info {
+  background-color: #2c9a7a;
+}
+
+.notie-select-container {
+  max-height: 184px;
+  overflow: auto;
+}
+
+.notie-select-choice {
+  background-color: #4caf93;
+  font-size: 0.8em;
+  line-height: 1.7em;
+}

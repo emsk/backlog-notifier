@@ -1,0 +1,17 @@
+{
+  "name": "backlog-notifier",
+  "productName": "Backlog Notifier",
+  "version": "0.1.0",
+  "description": "Backlog Notifier",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsk/backlog-notifier.git"
+  },
+  "author": "emsk",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "5.0.2",
+    "notie": "4.3.0"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Preferences</title>
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/notie/dist/notie.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+  </head>
+
+  <body>
+    <div id="main">
+      <h1><i class="fa fa-cog fa-fw"></i> Backlog Notifier</h1>
+
+      <table>
+        <tr>
+          <th>
+            <i class="fa fa-home fa-fw"></i>
+            Space ID (required)
+          </th>
+          <td class="setting-backlog"><input type="text" id="space-id" required></td>
+          <td rowspan="3">
+            <button id="test-connection-button" tabindex="-1">
+              Test connection
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <i class="fa fa-key fa-fw"></i>
+            API key (required)
+          </th>
+          <td class="setting-backlog"><input type="text" id="api-key" required></td>
+        </tr>
+        <tr>
+          <th>
+            <i class="fa fa-star fa-fw"></i>
+            Project ID
+          </th>
+          <td class="setting-number"><input type="number" id="project-id" min="1" pattern="^\d+$"></td>
+        </tr>
+      </table>
+
+      <table id="setting-option">
+        <tr>
+          <th>
+            <i class="fa fa-clock-o fa-fw"></i>
+            Fetch interval time
+          </th>
+          <td colspan="2" class="setting-number">
+            <input type="number" id="fetch-interval-sec" min="1" pattern="^\d+$">
+            <span class="unit">sec (default: <span id="default-fetch-interval-sec"></span>)</span>
+          </td>
+        </tr>
+      </table>
+
+      <div id="save-button-area">
+        <button id="save-button" tabindex="-1">
+          <i class="fa fa-floppy-o"></i>
+          Save
+        </button>
+        <button id="close-button" tabindex="-1">
+          <i class="fa fa-times"></i>
+          Close
+        </button>
+      </div>
+    </div>
+
+    <div id="sub-button-area">
+      <button id="other-settings-button" title="Show stored settings" tabindex="-1">
+        <i class="fa fa-exchange fa-fw"></i>
+      </button>
+      <button id="new-setting-button" title="Add new setting" tabindex="-1">
+        <i class="fa fa-plus fa-fw"></i>
+      </button>
+      <button id="delete-button" title="Delete this setting" tabindex="-1">
+        <i class="fa fa-trash-o fa-fw"></i>
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
