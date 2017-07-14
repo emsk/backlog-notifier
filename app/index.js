@@ -30,7 +30,7 @@
     appDir = __dirname; // Development
   }
 
-  let nodeNotifier = require('node-notifier');
+  const nodeNotifier = require('node-notifier');
 
   const appIconFilePath = isMac ? null : `${appDir}/images/${colorIconFilename64}`;
 
@@ -473,7 +473,7 @@
     }
 
     openSettingMenu() {
-      let choices = [];
+      const choices = [];
 
       const notifiers = this.selectValidNotifiers();
       notifiers.forEach((notifier, index) => {
@@ -575,7 +575,7 @@
       }
     });
 
-    let notifiers = [];
+    const notifiers = [];
     const notifierCount = Number(localStorage.getItem('notifierCount'));
 
     for (let i = 0; i < notifierCount; i++) {
