@@ -492,7 +492,7 @@
 
       notie.select({
         text: 'Stored Space IDs',
-        choices: choices
+        choices
       });
 
       this.wrapSettingMenuItems();
