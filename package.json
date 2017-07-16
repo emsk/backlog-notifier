@@ -16,7 +16,7 @@
     "release": "yarn run clean && yarn install && yarn run pack"
   },
   "devDependencies": {
-    "ava": "~0.18.2",
+    "ava": "~0.21.0",
     "electron": "1.6.2",
     "electron-builder": "16.2.1",
     "electron-builder-squirrel-windows": "16.0.0",
