@@ -21,8 +21,8 @@
     "electron-builder": "16.2.1",
     "electron-builder-squirrel-windows": "16.0.0",
     "spectron": "~3.6.0",
-    "stylelint": "~7.9.0",
-    "stylelint-config-standard": "~16.0.0",
+    "stylelint": "~8.0.0",
+    "stylelint-config-standard": "~17.0.0",
     "textlint": "^7.3.0",
     "textlint-rule-write-good": "^1.6.0",
     "xo": "~0.18.2"
