@@ -20,7 +20,7 @@
     "electron": "2.0.2",
     "electron-builder": "16.2.1",
     "electron-builder-squirrel-windows": "16.0.0",
-    "spectron": "~3.6.0",
+    "spectron": "~3.8.0",
     "stylelint": "~9.2.1",
     "stylelint-config-standard": "~18.2.0",
     "stylelint-order": "~0.8.1",
