@@ -10,13 +10,8 @@
   const colorIconFilename24 = 'icon_black.png';
   const colorIconFilename24Notification = 'icon_black.png';
 
-  const electron = require('electron');
-  const remote = electron.remote;
-  const app = remote.app;
-  const dialog = remote.dialog;
-  const shell = remote.shell;
-  const Menu = remote.Menu;
-  const Tray = remote.Tray;
+  const {remote} = require('electron');
+  const {app, dialog, shell, Menu, Tray} = remote;
   const fs = require('fs');
   const notie = require('notie');
 
