@@ -29,7 +29,7 @@
   },
   "build": {
     "appId": "com.emsk.backlog-notifier",
-    "asarUnpack": "{custom,images}/**/*",
+    "asarUnpack": "node_modules/node-notifier/**/*",
     "copyright": "Copyright (c) 2017 emsk",
     "mac": {
       "category": "public.app-category.productivity",
